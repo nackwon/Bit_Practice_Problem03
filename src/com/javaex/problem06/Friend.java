@@ -39,10 +39,4 @@ public class Friend {
 	public void showInfo() {
 		System.out.println("이름:" + name + "  핸드폰:" + hp + "  학교:" + school);
 	}
-
-	public void showInfo(Friend[] arr) {
-		for (int i = 0; i < arr.length; i++) {
-			System.out.println("이름:" + arr[i].getName() + " 핸드폰:" + arr[i].getHp() + " 학교:" + arr[i].getSchool());
-		}
-	}
 }
